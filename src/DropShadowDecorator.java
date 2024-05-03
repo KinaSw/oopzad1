@@ -16,7 +16,6 @@ public class DropShadowDecorator extends ShapeDecorator{
         );
     }
 
-
     public String toSvg(String parameters) {
         String f = String.format(Locale.ENGLISH, " filter=\"url(#f%d)\" %s", index, parameters);
 
