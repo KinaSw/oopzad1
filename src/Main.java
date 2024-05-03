@@ -17,7 +17,6 @@ public class Main {
                 ellipse = new DropShadowDecorator(ellipse);
 
 
-
                 Polygon poly = new Polygon(new Vec2[]{new Vec2(200, 10), new Vec2(550, 50), new Vec2(100, 100)});
 
                 TransformationDecorator.Builder builder = new TransformationDecorator.Builder(new SolidFillShapeDecorator(poly, "red"));
