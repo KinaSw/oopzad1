@@ -12,7 +12,6 @@ public class Ellipse implements Shape{
         this.ry = ry;
     }
 
-
     public String toSvg(String parameters) {
         return String.
                 format(Locale.ENGLISH,"\n<ellipse cx='%f' cy='%f' rx='%f' ry='%f' %s />",
