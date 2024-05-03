@@ -11,6 +11,7 @@ public class GradientFillShapeDecorator extends ShapeDecorator {
         super(shape);
         stops = new Stop[0];
     }
+    
 
     public int addDefs() {
         SvgScene scene = SvgScene.getScene();
